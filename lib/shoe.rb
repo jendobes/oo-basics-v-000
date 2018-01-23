@@ -11,4 +11,8 @@ class Shoe
     @brand
   end
 
+  def cobble
+    self.condition = "new"
+  end
+
 end
